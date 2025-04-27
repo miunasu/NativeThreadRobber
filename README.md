@@ -1,9 +1,7 @@
 # Native_Thread_Robber
 
-A new method of DLL hijacking.  
 Using DLL sideloading to hijack the exe main thread before starting it!  
 YES! NTR main thread, rob CPU dominance.  
-一种新型的dll劫持方法。  
 在exe程序主线程启动之前劫持主线程。  
 
 ## Theory
