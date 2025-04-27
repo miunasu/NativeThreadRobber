@@ -2,7 +2,7 @@
 
 Using DLL sideloading to hijack the exe main thread before starting it!  
 YES! NTR main thread, rob CPU dominance.  
-在exe程序主线程启动之前劫持主线程。  
+使用dll侧载在exe程序主线程启动之前劫持主线程。  
 
 ## Theory
 There has Windows Loader Before main thread resume.  
