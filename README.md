@@ -21,8 +21,13 @@ LdrInitializeThunk->LdrpInitialize->dllmain->NtContinue->RtlUserThreadStart->EXE
 Modify call chain:  
 LdrInitializeThunk->LdrpInitialize->dllmain->NtContinue->shellcode  
 
+old:
 If you want resume exe main thread in x64(x86 has wow64, so I did not continue to dig deeper):   
 shellcode->RtlUserThreadStart->EXE Oep
+
+new:
+Now, you can resume exe in both x86 and x64.
+detail [NTR_loader](https://github.com/miunasu/NTR_loader).
 
 ## Example
 In x64:  
